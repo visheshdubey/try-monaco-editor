@@ -46,7 +46,7 @@ const getStatusColor = (
     return "bg-red-100 text-red-800"; // Wrong Answer
   }
 
-  if (statusId === 3) return "bg-green-100 text-green-800"; // Accepted
+  if (statusId === 3) return "bg-green-100 text-green-800";
   if (statusId === 4) return "bg-red-100 text-red-800"; // Wrong Answer
   if (statusId === 5) return "bg-yellow-100 text-yellow-800"; // Time Limit Exceeded
   if (statusId === 6) return "bg-red-100 text-red-800"; // Compilation Error
