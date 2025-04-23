@@ -30,7 +30,13 @@ You can return the answer in any order.`,
  */
 var twoSum = function(nums, target) {
     // Your code here
-};`,
+};
+
+
+
+
+// Do not edit
+twoSum();`,
     c: `/**
  * Note: The returned array must be malloced, assume caller calls free().
  */
