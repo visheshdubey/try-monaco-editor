@@ -5,6 +5,7 @@ import Editor from "@monaco-editor/react";
 import { INITIAL_PROBLEM, SUPPORTED_LANGUAGES } from "./constants";
 import { Language, Judge0Response } from "./types";
 import { submitCode } from "./services/judge0";
+import Image from "next/image";
 
 const TEST_CASES = [
   {
@@ -123,7 +124,14 @@ export default function Home() {
 
   return (
     <main className="min-h-screen p-8 bg-gray-50">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto ">
+        <Image
+          src={"/cm-logo-light.webp"}
+          alt=""
+          width={240}
+          height={40}
+          className="mb-12"
+        ></Image>
         <h1 className="text-3xl font-bold mb-6">{INITIAL_PROBLEM.title}</h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
