@@ -25,6 +25,7 @@ export const submitCode = async (
   stdin: string
 ): Promise<Judge0Response> => {
   try {
+    console.log(process.env.NEXT_PUBLIC_RAPIDAPI_KEY);
     // Submit the code
     const response = await axios.post(
       `${JUDGE0_API_URL}/submissions`,
